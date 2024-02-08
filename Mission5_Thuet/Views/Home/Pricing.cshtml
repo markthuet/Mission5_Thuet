@@ -1,0 +1,43 @@
+﻿
+
+@{
+    ViewData["Title"] = "POWDER ";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+   
+    <link rel="icon" href="path-to-your-icon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <div class="text-center">
+        <h1 class="display-4">Pricing to get STOKED with me</h1>
+
+        <!-- Calculator UI elements here -->
+        <label for="hours">Number of Hours:</label>
+        <input type="text" id="hours" />
+
+        <label for="chargePerHour">Charge per Hour:</label>
+        <input type="text" id="chargePerHour" value="100" readonly />
+
+        <button onclick="calculateTotal()">Calculate Total</button>
+
+        
+        <div id="total"></div>
+    </div>
+
+    <!-- Navigation link back to the home page -->
+    <div>
+        <a href="/">Go back to Home</a>
+    </div>
+
+    <!-- Include jQuery and your JavaScript file -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="~/js/site.js"></script>
+
+</body>
+</html>
+

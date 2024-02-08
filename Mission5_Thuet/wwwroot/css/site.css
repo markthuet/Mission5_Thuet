@@ -1,0 +1,61 @@
+/* site.css */
+
+/* Global styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* Button and form focus styling */
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/* Page layout */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+/* Header styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #258cfb;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation link styling */
+a {
+    color: #258cfb;
+}
+
+/* Images styling */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Add any additional styles specific to your pages */
+
